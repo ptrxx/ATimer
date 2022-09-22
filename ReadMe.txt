@@ -4,19 +4,19 @@
 	This a timer to help me sink in study
 #Function: 
 	😊[1]Select a time from preset time list use to count down  
-	no[2]Create a timer preset and put it into preset time list 
-	yes[3]show the time of counting down 
-	yes[4]directly edit time to count down
-	yes[5]start countdown 
-	yes[6]pause countdown 
-	yes[7]continue countdwon 
- 	yes[8]reset countdown 
-	yes[9]show a system tray icon with tip information about short cut keys
-	yes[10]LButton click system tray icon will pop up a menu , which is constituted by window, to exit program. 
-	yes[11]double click system tray to show or hide main window of timer.
-	yes[12]use short cut keys to start/stop/continue/reset timer.
-	yes[13]start/stop/continue/reset operation will pop a short time window to show the operation. maybe,play music to respond the corresponding operation also a good way 
-	no[14]when timer is counting down(runing/stop) ,per five secs to store timer data until timer end
+	😊[2]Create a timer preset and put it into preset time list 
+	😊[3]show the time of counting down 
+	😊[4]directly edit time to count down
+	😊[5]start countdown 
+	😊[6]pause countdown 
+	😊[7]continue countdwon 
+ 	😊[8]reset countdown 
+	😊[9]show a system tray icon with tip information about short cut keys
+	😊[10]LButton click system tray icon will pop up a menu , which is constituted by window, to exit program. 
+	😊[11]double click system tray to show or hide main window of timer.
+	😊[12]use short cut keys to start/stop/continue/reset timer.
+	😊[13]start/stop/continue/reset operation will pop a short time window to show the operation. maybe,play music to respond the corresponding operation also a good way 
+	😊[14]when timer is counting down(runing/stop) ,per five secs to store timer data until timer end
 #What I need:
 	*Data:
 		+Memory Data
