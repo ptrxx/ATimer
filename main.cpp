@@ -9,7 +9,7 @@
 
 #pragma comment(lib, "Shcore.lib")
 #pragma comment(lib,"Winmm.lib")
-/*MACRO START*/
+/*MACRO START */
 
 #define PRESETFILE L".preset"
 #define LASTTIMEFILE L".time"
