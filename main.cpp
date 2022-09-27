@@ -437,13 +437,18 @@ LRESULT CALLBACK mainWindowProcedure ( HWND hWnd,UINT uMsg,WPARAM wParam,LPARAM 
 				} else if( l<2 ) {
 					StringCbPrintfW ( hstr,sizeof ( hstr ),L"0%s",tstr );
 				}
-
+				else {
+					StringCbPrintfW(hstr, sizeof(hstr), L"%s", tstr);
+				}
 				Edit_GetText ( hudButtonMinute,tstr,TEXTLIMIT+1 );
 				l = wcslen ( tstr );
 				if( l<1 ) {
 					StringCbPrintfW ( mstr,sizeof ( mstr ),L"00" );
 				} else if( l<2 ) {
 					StringCbPrintfW ( mstr,sizeof ( mstr ),L"0%s",tstr );
+				}
+				else {
+					StringCbPrintfW(mstr, sizeof(mstr), L"%s", tstr);
 				}
 
 				Edit_GetText ( hudButtonSecond,tstr,TEXTLIMIT+1 );
@@ -452,6 +457,9 @@ LRESULT CALLBACK mainWindowProcedure ( HWND hWnd,UINT uMsg,WPARAM wParam,LPARAM 
 					StringCbPrintfW ( sstr,sizeof ( sstr ),L"00" );
 				else if( l<2 ) {
 					StringCbPrintfW ( sstr,sizeof ( sstr ),L"0%s",tstr );
+				}
+				else {
+					StringCbPrintfW(sstr, sizeof(sstr), L"%s", tstr); 
 				}
 
 				StringCbPrintfW ( combine,sizeof ( combine ),L"%s:%s:%s",hstr,mstr,sstr );
